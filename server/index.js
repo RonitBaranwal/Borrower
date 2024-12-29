@@ -1,4 +1,3 @@
-// console.log("Hello World");
 require('dotenv').config();
 const bcrypt = require("bcrypt");
 const express = require("express");
@@ -20,7 +19,7 @@ const mongoose = require("mongoose");
 // mongoose.connect("api");
 mongoose.connect("mongodb://localhost:27017/borrower");
 
-//Schema for users tabl
+
 
 app.use('/',userRoutes)
 

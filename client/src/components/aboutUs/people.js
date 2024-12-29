@@ -5,10 +5,11 @@ const peopleData = [
     },
     {
         name: "Aditya Kumar Singh",
-        age:22
+        age:22,
     },
     {
         name: "Binoy Sikdar",
-        age:22
+        age:22,
     }
 ]
+export default peopleData;

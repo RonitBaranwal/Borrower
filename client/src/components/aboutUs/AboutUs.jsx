@@ -16,6 +16,7 @@ export default function AboutUs() {
         <AboutUsCompany />
         <div id='about-devs'>
           <CardGroup>
+            <div> hello aditya ronit here from this side </div>
             <CustomCard />
             <CustomCard />
             <CustomCard />
