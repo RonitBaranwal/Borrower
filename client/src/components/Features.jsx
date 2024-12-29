@@ -1,7 +1,7 @@
 import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import './Header.css';
+import './Header&Footer/Header.css';
 import { LinearGradient } from 'react-text-gradients'
 
 function Features() {

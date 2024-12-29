@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "./Header&Footer/Header";
+import Footer from "./Header&Footer/Footer";
 import "./AuthPage.css";
 import logo from "./lio-logo.jpg";
 import { Link, useNavigate } from "react-router-dom";

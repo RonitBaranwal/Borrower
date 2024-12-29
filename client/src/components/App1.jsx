@@ -9,6 +9,7 @@ import AboutUs  from "./aboutUs/AboutUs.jsx";
 import Home from "./home/Home.jsx";
 import ProtectedRoute from "./protectedRoutes.jsx";
 import 'font-awesome/css/font-awesome.min.css';
+import ErrorPage from "./error/ErrorPage.jsx";
 
 function App1() {
   return (
@@ -29,7 +30,7 @@ function App1() {
         />
         
 
-        <Route path="/error" element={<ContactUs/> } />
+        <Route path="/error" element={<ErrorPage/> } />
       </Routes>
     </Router>
   );

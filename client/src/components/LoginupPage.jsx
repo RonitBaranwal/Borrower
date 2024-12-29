@@ -1,8 +1,8 @@
 import React from "react";
 import "./AuthPage.css";
-import logo from "./lio-logo.jpg";
+
 import { Link, useNavigate } from "react-router-dom";
-import Footer from "./Footer";
+import Footer from "./Header&Footer/Footer";
 import { useState } from "react";
 import axios from "axios";
 import 'react-notifications/lib/notifications.css';

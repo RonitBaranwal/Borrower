@@ -64,6 +64,7 @@ html, body {
   
   footer {
     margin-top: auto; /* Ensures the footer stays at the bottom */
+    
   }
   .footer-container{
     height: 3vh;
