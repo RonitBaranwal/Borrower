@@ -2,20 +2,22 @@ import React from 'react'
 
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-export default function CustomCard() {
+import CardLink from "react-bootstrap/CardLink";
+import image from './../download.jpeg'
+import styles from './AboutUs.module.css'
+export default function CustomCard({name,age,description,linkedIn,github}) {
   return (
     <Card>
-      <Card.Img variant='top' src='holder.js/100px160' />
+      <Card.Img variant='top' src={image} className={styles.devImages}/>
       <Card.Body>
-        <Card.Title>Ronit Kumar Baranwal</Card.Title>
+        <Card.Title>{name}</Card.Title>
         <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
+          {description}
         </Card.Text>
       </Card.Body>
-      <Card.Footer>
-        <small className='text-muted'>Last updated 3 mins ago</small>
-      </Card.Footer>
+      <CardLink href={linkedIn}>LinkedIn </CardLink>
+      <CardLink href={github}>Github </CardLink>
+     
     </Card>
   );
 }

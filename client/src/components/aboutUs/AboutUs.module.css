@@ -1,0 +1,80 @@
+/* For the overall body layout */
+.aboutusBody {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Borrower styling */
+.aboutusBorrower {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1rem;
+  /* Smaller font size */
+  font-weight: 400;
+  /* Optional: Normal weight for Borrower */
+  color: #ffffff;
+
+  /* Light text for contrast */
+}
+.linkBorrower {
+  text-decoration: none;
+  color: white;
+}
+
+/* Title styling */
+.aboutusTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  /* Larger font size for title */
+  font-weight: 600;
+  /* Optional: Make it bold */
+  color: #ffffff;
+  margin: 0;
+}
+
+/* Developer cards section */
+#aboutDevs {
+  flex: 1;
+  /* Ensure it grows to take the remaining space */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* Space between cards */
+}
+
+/* Button custom styling */
+.btn-primary {
+  background-color: #007bff;
+  /* Bright blue */
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+
+/* Custom card styling */
+.custom-card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: none;
+}
+
+.custom-card-footer {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+.devImages {
+  height: 100px;
+  width: 80px;
+  margin: 30px;
+}
